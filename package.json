@@ -1,11 +1,11 @@
 {
-  "name": "esp-web-tools",
-  "version": "10.0.1",
-  "description": "Web tools for ESP devices",
+  "name": "gravador_web",
+  "version": "0.9",
+  "description": "Gravador para ESPs online",
   "main": "dist/install-button.js",
-  "repository": "https://github.com/esphome/esp-web-tools",
-  "author": "ESPHome maintainers",
-  "license": "Apache-2.0",
+  "repository": "https://github.com/LOK-A/Gravador_Web",
+  "author": "LOK-A",
+  "license": "Live",
   "scripts": {
     "prepublishOnly": "script/build"
   },
