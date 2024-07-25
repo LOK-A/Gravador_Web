@@ -12,10 +12,9 @@ Example manifest:
 
 ```json
 {
-  "name": "ESPHome",
-  "version": "2021.10.3",
-  "home_assistant_domain": "esphome",
-  "funding_url": "https://esphome.io/guides/supporters.html",
+  "name": "Espressif",
+  "version": "0.9",
+  "home_assistant_domain": "espressif",
   "builds": [
     {
       "chipFamily": "ESP32",
@@ -23,7 +22,7 @@ Example manifest:
         { "path": "bootloader_dout_40m.bin", "offset": 4096 },
         { "path": "partitions.bin", "offset": 32768 },
         { "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "esp32.bin", "offset": 65536 }
+        { "path": "firmware.bin", "offset": 65536 }
       ]
     },
     {
