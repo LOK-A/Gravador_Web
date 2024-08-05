@@ -19,7 +19,7 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/w3c-web-serial": "^1.0.6",
     "prettier": "^3.2.5",
-    "rollup": "^4.10.0",
+    "rollup": "^4.20.0",
     "serve": "^14.2.1",
     "typescript": "^5.3.3"
   },
